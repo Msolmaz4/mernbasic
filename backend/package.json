@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "test": "nodemon server.js",
+    "data:import": "nodemon seeder.js"
+    
   },
   "keywords": [],
   "author": "",
