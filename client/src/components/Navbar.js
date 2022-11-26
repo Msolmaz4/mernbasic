@@ -12,16 +12,35 @@ const Navbar = () => {
 
 
         {/**links */}
-        <ul className='navabr_links'>
+        <ul className='navbar_links'>
          <li  >
-          <Link to='/cart'>
+          <Link to='/cart' className='cart_link'>
+            {/**icon azrica font-aweso index html kurduk  */}
+            <i className='fas fa-shopping-cart'></i>
+            <span>
+            Cart
+            <span className='cartlogo_badge'>0</span>
+            </span>
+          
+          </Link>
+         </li>
+         <li  >
+          <Link to='/'>
+           
+            Shop
+           
           </Link>
          </li>
         </ul>
 
 
          {/**hamburger menu */}
-        
+         <div className='hamburger_menu'>
+         <div></div>
+         <div></div>
+         <div></div>
+         </div>
+         
     </nav>
   )
 }
