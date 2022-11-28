@@ -5,11 +5,20 @@ import './Cart.css'
 const CartScreen = () => {
   return (
     <div className='cartscreen'>
-      <div className='cartscreen_left'>
+      <div className='cartscreen__left'>
         <h2>Shopping</h2>
         <CartItem/>
       </div>
-      <div className='cartscreen_right'>
+      <div className='cartscreen__right'>
+        <div className='cartscreen__info'>
+          <p>Subtotal (0) items</p>
+          <p>$499</p>
+
+
+        </div>
+        <div>
+          <button type=""> Procedd to check</button>
+        </div>
 
       </div>
       
