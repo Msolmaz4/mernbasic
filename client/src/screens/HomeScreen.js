@@ -1,9 +1,24 @@
 import React from 'react'
-import './Home.css'
+import Product from '../components/Product'
+import './Home.css' 
+
+
 
 const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
+    <div className='homescreen'>
+      <h2 className='homescreen_title'>Latest Products</h2>
+      <div className='homescreen_products'>
+        <Product/>
+        <Product/>
+        <Product/>
+        <Product/>
+        <Product/>
+        <Product/>
+        <Product/>
+      </div>
+      
+      </div>
   )
 }
 
