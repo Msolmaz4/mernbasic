@@ -8,3 +8,4 @@ export const GET_PRODUCTS_DETAILS_FAIL ='GET_PRODUCTS_DETAILS_FAIL'
 export const GET_PRODUCTS_DETAILS_RESET ='GET_PRODUCTS_DETAILS_RESET'
 
 //product sabitleri ayarlandi
+//reducergectik 
