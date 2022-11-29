@@ -7,7 +7,12 @@ import thunk from 'redux-thunk'
 import { composeWithDevTools } from "redux-devtools-extension";
 //ice akatarmayi buturdik
 
-const reducer =combineReducers({})
+//buraya redicers
+import { cartReducer} from './reducers/cartReducers'
+
+const reducer =combineReducers({
+    cart:cartReducer
+})
 
 const middlerware = [thunk]
 
