@@ -9,9 +9,12 @@ import { composeWithDevTools } from "redux-devtools-extension";
 
 //buraya redicers
 import { cartReducer} from './reducers/cartReducers'
-
+import {getProductDetailsReducer, getProductsReducer} from './reducers/productReducers'
 const reducer =combineReducers({
-    cart:cartReducer
+    cart:cartReducer,
+    getProducts:getProductsReducer,
+    getProductsDetails:getProductDetailsReducer
+
 })
 
 const middlerware = [thunk]
